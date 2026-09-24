@@ -1,193 +1,166 @@
-<h1 align="center">👋 Hey, ich bin Phillip - Homelab Engineer & Developer</h1>
+<h1 align="center">Phillip Völkel</h1>
 
 <p align="center">
-  <b>Ich baue meine eigene Cloud-Infrastruktur. Sicher. Automatisiert. Selbstbestimmt.</b>
+  <b>Infrastructure & DevOps Engineer · Self-Hosting · Security · Automation</b><br>
+  Ich plane, betreibe und automatisiere Infrastruktur, die sicher, nachvollziehbar und wartbar ist.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Fokus-Proxmox%20%7C%20Docker%20%7C%20Zero%20Trust-0A66C2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Standort-Deutschland-1A1A1A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Sprachen-DE%20%7C%20EN-1A1A1A?style=flat-square" />
 </p>
 
 ---
 
-## 🚀 Was ich mache
+## Über mich
 
-🔹 Homelab: Multi-Node Proxmox Cluster, Zero-Trust, DNS-Security  
-🔹 Self-Hosted Services für Dev, Automation & Media  
-🔹 Web- & Tool-Development (JS, Python, Bash)  
-🔹 Monitoring, Auditing & Backup → „Always up & recoverable“ ✅  
+Ich betreibe einen Multi-Node-Proxmox-Cluster als produktionsnahe Umgebung und nutze ihn als Labor für das, was ich
+auch für Kunden umsetze: virtualisierte Infrastruktur, containerisierte Dienste, identitätsbasierter Zugriff,
+Monitoring mit Alerting und automatisierte Betriebsabläufe.
 
-> *„Warum warten bis es jemand für dich baut — baue es selbst besser.“*
+Mit **Synvix** biete ich diese Erfahrung als Dienstleistung an – von Hosting und Cloud-Infrastruktur über
+Netzwerk- und Security-Konzepte bis zu Automatisierung und ERPNext.
+
+**Worauf ich Wert lege**
+
+- **Security by Design** – Zero Trust, MFA und Least Privilege von Anfang an, nicht nachträglich
+- **Observability** – jeder Dienst wird überwacht, jeder Ausfall meldet sich selbst
+- **Reproduzierbarkeit** – Skripte, Konfiguration als Code und Dokumentation statt Handarbeit
+- **Datensouveränität** – Self-Hosting und Hosting in DE/EU, DSGVO-konform gedacht
 
 ---
 
-## 🧠 Skill-Radar
+## Schwerpunkte
 
-<div align="center">
+| Bereich | Was ich konkret mache |
+|---|---|
+| **Virtualisierung & Hosting** | Proxmox-Cluster (VMs + LXC), Docker/Compose, Service-Isolation, Update- und Backup-Strategien |
+| **Netzwerk & Zugriff** | OPNsense, segmentierte Trust-Zonen, WireGuard/NetBird-Mesh, Cloudflare Tunnel & Access |
+| **Identity & Security** | Authentik (SSO, MFA), Fail2ban, Hardening, Login-Alerting, DNS-Filterung |
+| **Monitoring & Alerting** | Prometheus, Grafana, Uptime Kuma, Netdata, Push-Benachrichtigungen via ntfy |
+| **Automatisierung** | Bash- und Python-Skripte, n8n-Workflows, API-Integrationen |
+| **Business-Anwendungen** | ERPNext, Nextcloud, Paperless-ngx – Self-Hosted statt SaaS-Abhängigkeit |
 
-🎯 **Core Competencies**
-  
-![DevOps](https://img.shields.io/badge/DevOps-000?style=for-the-badge&logo=linux)
+---
+
+## Tech-Stack
+
+**Infrastruktur**
+
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Zero Trust](https://img.shields.io/badge/Zero_Trust-0A66C2?style=for-the-badge)
-
-💻 **Development**
-  
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-
-🛡 Sicherheit & Monitoring
-  
-![Fail2Ban](https://img.shields.io/badge/Fail2ban-000?style=for-the-badge)
-![Uptime Kuma](https://img.shields.io/badge/Uptime%20Kuma-4AB197?style=for-the-badge)
-![Netdata](https://img.shields.io/badge/Netdata-0066FF?style=for-the-badge)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Authentik](https://img.shields.io/badge/Authentik-6C63FF?style=for-the-badge)
-![Multi-Factor Authentication](https://img.shields.io/badge/Multi--Factor%20Auth-1A1A1A?style=for-the-badge)
-
-🔧 **Infrastructure & Homelab Engineering**
-
-![Virtualization](https://img.shields.io/badge/Virtualisierung-0078D4?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Secure Networking](https://img.shields.io/badge/VPN/Zero%20Trust-1A1A1A?style=for-the-badge)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge)
-![Netbird](https://img.shields.io/badge/Netbird-0085FF?style=for-the-badge)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge)
 
-📦 **Self-Hosted Services & Automation**
+**Netzwerk & Security**
 
+![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=for-the-badge&logo=opnsense&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare%20Zero%20Trust-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+![NetBird](https://img.shields.io/badge/NetBird-0085FF?style=for-the-badge)
+![Authentik](https://img.shields.io/badge/Authentik-FD4B2D?style=for-the-badge&logo=authentik&logoColor=white)
+![Fail2ban](https://img.shields.io/badge/Fail2ban-1A1A1A?style=for-the-badge)
 ![AdGuard Home](https://img.shields.io/badge/AdGuard%20Home-68BC71?style=for-the-badge&logo=adguard&logoColor=white)
-![Authentik](https://img.shields.io/badge/Authentik-6C63FF?style=for-the-badge)
-![BookStack](https://img.shields.io/badge/BookStack-0288D1?style=for-the-badge)
-![Dozzle](https://img.shields.io/badge/Dozzle-0275D8?style=for-the-badge)
-![ERPNext](https://img.shields.io/badge/ERPNext-00A3E0?style=for-the-badge)
-![Home Assistant](https://img.shields.io/badge/Home%20Assistant-41BDF5?style=for-the-badge&logo=home-assistant&logoColor=white)
-![IT Tools](https://img.shields.io/badge/IT%20Tools-1A1A1A?style=for-the-badge)
-![Linkwarden](https://img.shields.io/badge/Linkwarden-0050FF?style=for-the-badge)
-![Nextcloud](https://img.shields.io/badge/Nextcloud-0082C9?style=for-the-badge&logo=nextcloud&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-A72C96?style=for-the-badge&logo=n8n&logoColor=white)
-![ntfy](https://img.shields.io/badge/ntfy-FF3E00?style=for-the-badge)
-![Paperless-NGX](https://img.shields.io/badge/Paperless--NGX-003B57?style=for-the-badge)
-![Password Pusher](https://img.shields.io/badge/Password%20Pusher-000000?style=for-the-badge)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
-![Rocket.Chat](https://img.shields.io/badge/Rocket.Chat-D92E26?style=for-the-badge&logo=rocket.chat&logoColor=white)
-![SterlingPDF](https://img.shields.io/badge/SterlingPDF-4A4A4A?style=for-the-badge)
-![Tugtainer](https://img.shields.io/badge/Tugtainer-1A73E8?style=for-the-badge)
-![Vaultwarden](https://img.shields.io/badge/Vaultwarden-2B2B2B?style=for-the-badge)
-![Watchtower](https://img.shields.io/badge/Watchtower-1D63ED?style=for-the-badge)
 
-### 📊 Skills - Proficiency (Selbsteinschätzung)
+**Monitoring**
 
-| Bereich | Level |
-|--------|-------|
-| DevOps / Homelab Engineering | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#1f6feb"><animate attributeName="width" from="0" to="270" dur="0.9s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">90%</text></svg> |
-| Containerisierung (Docker/Compose) | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#0ea5e9"><animate attributeName="width" from="0" to="255" dur="0.9s" begin="0.05s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">85%</text></svg> |
-| Monitoring & Alerting | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#f59e0b"><animate attributeName="width" from="0" to="240" dur="0.9s" begin="0.1s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">80%</text></svg> |
-| Security Automation | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#22c55e"><animate attributeName="width" from="0" to="225" dur="0.9s" begin="0.15s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">75%</text></svg> |
-| Web-/Scripting Dev | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#8b5cf6"><animate attributeName="width" from="0" to="195" dur="0.9s" begin="0.2s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">65%</text></svg> |
-| Windows / Mixed Environments | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#3b82f6"><animate attributeName="width" from="0" to="165" dur="0.9s" begin="0.25s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">55%</text></svg> |
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Uptime Kuma](https://img.shields.io/badge/Uptime%20Kuma-5CDD8B?style=for-the-badge&logo=uptimekuma&logoColor=white)
+![Netdata](https://img.shields.io/badge/Netdata-00AB44?style=for-the-badge&logo=netdata&logoColor=white)
 
----
+**Development & Automation**
 
-### 💻 Development - Proficiency (Sprachen & Tools)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
-| Tech | Level |
-|-----|-------|
-| JavaScript | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#facc15"><animate attributeName="width" from="0" to="210" dur="0.9s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">10%</text></svg> |
-| TypeScript | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#3b82f6"><animate attributeName="width" from="0" to="180" dur="0.9s" begin="0.05s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">5%</text></svg> |
-| HTML5 | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#ef4444"><animate attributeName="width" from="0" to="225" dur="0.9s" begin="0.1s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">25%</text></svg> |
-| Python | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#0ea5e9"><animate attributeName="width" from="0" to="180" dur="0.9s" begin="0.15s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">50%</text></svg> |
-| Bash | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#10b981"><animate attributeName="width" from="0" to="210" dur="0.9s" begin="0.2s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">45%</text></svg> |
-| Node.js | <svg width="360" height="22" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="10" x="0" y="6" rx="5" fill="#e5e7eb"/><rect width="0" height="10" x="0" y="6" rx="5" fill="#16a34a"><animate attributeName="width" from="0" to="195" dur="0.9s" begin="0.25s" fill="freeze" /></rect><text x="305" y="14" font-size="12" fill="#6b7280">65%</text></svg> |
+<details>
+<summary><b>Self-Hosted Services im Betrieb</b></summary>
+<br>
+
+| Kategorie | Dienste |
+|---|---|
+| Identität & Secrets | Authentik, Vaultwarden, Password Pusher |
+| Zusammenarbeit & Dokumente | Nextcloud, Rocket.Chat, BookStack, Paperless-ngx, Stirling-PDF, Linkwarden |
+| Business | ERPNext |
+| Automatisierung | n8n, Home Assistant, ntfy |
+| Betrieb & Wartung | Portainer, Dozzle, Tugtainer, IT-Tools |
+| Netzwerk | AdGuard Home, Cloudflare Tunnel |
+
+</details>
 
 ---
 
-### 🛡 Security Posture - My Approach
+## Referenzarchitektur: mein Homelab
 
-✅ Zero-Trust als Architekturprinzip  
-✅ MFA überall - kein Zugang ohne Identitätsprüfung  
-✅ Kontinuierliches Monitoring & Echtzeit-Alerts  
-✅ Least-Privilege: Rechte nur, wenn wirklich notwendig  
-✅ Vollständige Auditierung aller Zugriffe  
-✅ Dokumentation & Patch-Management als Standard
+```mermaid
+flowchart LR
+    user([Nutzer]) -->|HTTPS| cfa[Cloudflare Access]
+    admin([Admin]) -->|WireGuard / NetBird| mesh[Mesh-VPN]
+    cfa -->|OIDC| idp[Authentik<br/>SSO + MFA]
 
----
+    subgraph pve[Proxmox Cluster]
+        tunnel[cloudflared] --> svc[Services<br/>LXC / Docker]
+        fw[OPNsense<br/>Trust-Zonen] --- svc
+        dns[AdGuard Home] --- svc
+        mon[Prometheus · Grafana<br/>Uptime Kuma · Netdata] -.-> svc
+    end
 
-### 🔐 Zero-Trust in meinem Homelab
+    cfa --> tunnel
+    mesh --> fw
+    mon -->|Alerts| ntfy[ntfy Push]
+```
 
-- Cloudflare Zero-Trust (Policies, Access, Tunnels)
-- Identitätsbasierte Zugriffssteuerung via Authentik
-- Encrypted Internal Mesh Networking (WireGuard / Netbird)
-- Service-Isolation & abgestufte Trust-Zonen
-- DNS-Security & Tracking Protection (AdGuard Home)
-
----
-
-### 💼 Why it matters - Business Value
-
-> Sicherheit ist kein Projekt - sondern ein Zustand,  
-> der jeden Tag verteidigt und verbessert wird.
-
-✔ Schutz sensibler Daten & Identitäten  
-✔ Minimierte Angriffsflächen → weniger Ausfälle  
-✔ Nachvollziehbare Compliance & Governance  
-✔ Schnellere Reaktion bei Incidents  
-✔ Höhere Betriebsstabilität & Vertrauen bei Kunden
-
-</div>
+- **Keine offenen Inbound-Ports:** Öffentliche Dienste laufen ausschließlich über ausgehende Cloudflare-Tunnel.
+- **Identität vor Netzwerk:** Zugriff wird über Authentik + MFA entschieden, nicht über die IP-Adresse.
+- **Segmentierung:** OPNsense trennt Management, Services und Clients in eigene Zonen.
+- **Admin-Zugriff:** nur über das verschlüsselte Mesh-VPN, nie direkt aus dem Internet.
+- **Selbstmeldend:** Ausfälle und verdächtige Logins werden sofort per Push gemeldet.
 
 ---
 
-## 🧩 Meine Infrastruktur (Homelab)
-
-**Highlights**
-- Proxmox → LXC + VMs (OPNsense, Logging, Security Services)
-- Cloudflare Tunnel → Secure External Access
-- DNS Security: AdGuard + DNS-Rewrite
-- GitOps-Style Management (Work-in-Progress)
-
-→ *Yes, I break things. But I also fix them smarter.* 😄
-
----
-
-## 🔥 Aktuelle Projekte
+## Aktuelle Projekte
 
 | Projekt | Beschreibung | Status |
-|--------|--------------|------|
-| Synvix Cloud Hub | Automatisierte Hosting-Umgebung | 🚧 Beta |
-| Secure Login Alerts | NTFY + Bash Monitoring Worker | ✅ Live |
-| Web Dev Playground | UI-Experimente & moderne Webkomponenten | 🔄 Refactor |
-| Homelab Automation Toolkit | Scripts & Policies for Failover & Backup | 🧪 Testing |
+|---|---|---|
+| **Synvix Cloud Hub** | Automatisierte Bereitstellung von Hosting-Umgebungen | 🚧 Beta |
+| **Secure Login Alerts** | Erkennung von SSH-/System-Logins mit Echtzeit-Push via ntfy (Bash) | ✅ Produktiv |
+| **Homelab Automation Toolkit** | Skripte & Policies für Failover, Backup und Wiederherstellung | 🧪 Test |
+| **Web Dev Playground** | UI-Experimente mit modernen Webkomponenten | 🔄 Überarbeitung |
 
 ---
 
-## 📊 GitHub Insights
+## GitHub
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=zervario&show_icons=true&theme=tokyonight" />
-<br><br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zervario&layout=compact&theme=tokyonight" />
-<br><br>
-<img src="https://github-profile-trophy.vercel.app/?username=zervario&theme=tokyonight&margin-w=10" />
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zervario&show_icons=true&hide_border=true&theme=tokyonight" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zervario&layout=compact&hide_border=true&theme=tokyonight" />
 </div>
 
 ---
 
-## 🤝 Connect with me
+## Kontakt
 
-<p>🌐 Instagram: https://www.instagram.com/zervario</p>
-<p>💬 Discord: https://discord.gg/yRAtVy6mNT</p>
-<p>📺 Twitch: https://twitch.tv/zervario</p>
+<p>
+  <a href="https://www.synvix.de"><img src="https://img.shields.io/badge/Synvix-synvix.de-0A66C2?style=for-the-badge" /></a>
+  <a href="mailto:phillip.voelkel@synvix.de"><img src="https://img.shields.io/badge/E--Mail-phillip.voelkel%40synvix.de-1A1A1A?style=for-the-badge" /></a>
+</p>
+<p>
+  <a href="https://discord.gg/yRAtVy6mNT"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <a href="https://www.instagram.com/zervario"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://twitch.tv/zervario"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" /></a>
+</p>
+
+Offen für Projekte rund um Infrastruktur, Self-Hosting, Security und Automatisierung.
 
 ---
 
-<p align="center">
- <b>„Secure. Automate. Innovate.“<br>— Phillip</b>
-</p>
+<p align="center"><b>Secure. Automate. Innovate.</b></p>
