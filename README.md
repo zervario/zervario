@@ -150,6 +150,10 @@ flowchart LR
 ## Kontakt
 
 <p>
+  <a href="https://www.synvix.de"><img src="https://img.shields.io/badge/Synvix-synvix.de-0A66C2?style=for-the-badge" /></a>
+  <a href="mailto:phillip.voelkel@synvix.de"><img src="https://img.shields.io/badge/E--Mail-phillip.voelkel%40synvix.de-1A1A1A?style=for-the-badge" /></a>
+</p>
+<p>
   <a href="https://discord.gg/yRAtVy6mNT"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <a href="https://www.instagram.com/zervario"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
   <a href="https://twitch.tv/zervario"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" /></a>
