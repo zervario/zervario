@@ -127,14 +127,26 @@ flowchart LR
 
 ---
 
-## Aktuelle Projekte
+## Open-Source-Werkzeuge
 
-| Projekt | Beschreibung | Status |
+Kleine Tools und Konfigurationen aus dem Homelab-Betrieb. Jedes Repo hat Tests und CI, die READMEs sagen offen, was getestet ist und was nicht.
+
+| Bereich | Repo | Worum es geht |
 |---|---|---|
-| **Synvix Cloud Hub** | Automatisierte Bereitstellung von Hosting-Umgebungen | 🚧 Beta |
-| **Secure Login Alerts** | Erkennung von SSH-/System-Logins mit Echtzeit-Push via ntfy (Bash) | ✅ Produktiv |
-| **Homelab Automation Toolkit** | Skripte & Policies für Failover, Backup und Wiederherstellung | 🧪 Test |
-| **Web Dev Playground** | UI-Experimente mit modernen Webkomponenten | 🔄 Überarbeitung |
+| Zugriff & Security | [login-alert](https://github.com/zervario/login-alert) | ntfy-Push bei SSH-Logins, eingehängt über `pam_exec` (Bash) |
+| | [ssh-ca](https://github.com/zervario/ssh-ca) | SSH-Zertifikate mit kurzer Laufzeit statt verteilter `authorized_keys` |
+| | [wg-peer](https://github.com/zervario/wg-peer) | WireGuard-Peers anlegen: Keys, freie Tunnel-IP, Client-Config, QR-Code |
+| Backup & Betrieb | [pve-restore-test](https://github.com/zervario/pve-restore-test) | Proxmox-Backups automatisch zurückspielen und prüfen, ob der Gast bootet |
+| | [restic-docker-backup](https://github.com/zervario/restic-docker-backup) | restic-Backup für Compose-Stacks inkl. DB-Dumps, ein Snapshot pro Stack |
+| | [erpnext-ops](https://github.com/zervario/erpnext-ops) | Backup, Restore und Update für ERPNext auf frappe_docker, mit Runbook |
+| Monitoring | [monitoring-stack](https://github.com/zervario/monitoring-stack) | Prometheus, Alertmanager, Grafana per Compose, Alert-Regeln mit Unit-Tests |
+| | [alertmanager-ntfy](https://github.com/zervario/alertmanager-ntfy) | Alertmanager-Webhooks an ntfy, Priorität aus dem `severity`-Label (Python) |
+| | [certwatch](https://github.com/zervario/certwatch) | TLS-Zertifikate prüfen, Ausgabe als Prometheus-Textfile oder ntfy (TypeScript) |
+| Infrastruktur als Code | [ansible-baseline](https://github.com/zervario/ansible-baseline) | Debian-12/13-Grundkonfiguration für VMs und LXC: SSH, sudo, Updates, fail2ban |
+| | [compose-stacks](https://github.com/zervario/compose-stacks) | Vaultwarden, Paperless-ngx, authentik, Uptime Kuma nach einheitlichen Regeln |
+| | [adguard-rewrites](https://github.com/zervario/adguard-rewrites) | AdGuard-Home-DNS-Rewrites als TOML im Git, Abgleich mehrerer Instanzen |
+
+**In Arbeit (nicht öffentlich):** Synvix Cloud Hub, eine automatisierte Bereitstellung von Hosting-Umgebungen.
 
 ---
 
